@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.admeldo/verified-work",
+  "title": "Verified Work",
+  "description": "Verify delivered agent work and get a signed pass/fail receipt, paid per check over x402.",
+  "websiteUrl": "https://verify.admeldo.com",
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://verify.admeldo.com/mcp"
+    }
+  ]
+}
